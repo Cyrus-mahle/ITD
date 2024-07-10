@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITECHDIGITAL</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-OLiP9z1Z83Cx2z1h0Zo5OLVQzIhccf3V95bP1Z5KwXStqu2QlOzCq4qO8YZcHVbp" crossorigin="anonymous">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- custom css file link  -->
+
+    <style>
+        body {
+            background-color: whitesmoke;
+            color: white;
+        }
+
+        .navbar {
+            color: rgb(255, 255, 255);
+            background-color: blueviolet;
+        }
+        .navbar .nav-link {
+            color: white !important;
+        }
+        
+        .navbar-brand img {
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+        }
+        
+        .circle-img {
+            border-radius: 50%;
+            box-shadow: 3px 3px 4px 4px blueviolet;
+        }
+
+        .circle-img.large {
+            width: 270px;
+            height: 270px;
+        }
+
+        .circle-img.medium {
+            width: 240px;
+            height: 240px;
+        }
+
+        .circle-img.small {
+            width: 180px;
+            height: 180px;
+            background-image: url("bg.jpg");
+        }
+
+        .social-icons i {
+            font-size: 24px;
+            margin: 0 10px;
+            color: blueviolet;
+        }
+
+        /* Custom CSS for dropdown menu hover effect */
+        .dropdown-menu {
+            background-color: blueviolet;
+        }
+
+        .dropdown-menu a.dropdown-item {
+            color: white !important;
+        }
+
+        .dropdown-menu a.dropdown-item:hover {
+            background-color: white !important;
+            color: blueviolet !important;
+        }
+        
+        .circle-img {
+            border-radius: 50%;
+            box-shadow: 3px 3px 4px 4px blueviolet;
+        }
+
+        .circle-img.large {
+            width: 270px;
+            height: 270px;
+        }
+
+        .circle-img.medium {
+            width: 240px;
+            height: 240px;
+        }
+
+        .circle-img.small {
+            width: 180px;
+            height: 180px;
+            background-image: url("bg.jpg");
+        }
+
+        .social-icons i {
+            font-size: 24px;
+            margin: 0 10px;
+            color: blueviolet;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img src="iTechDigital.jpeg" alt="Logo">
+            ITECHDIGITAL
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="linksDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-link"></i> Links
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="linksDropdown">
+                        <a class="dropdown-item" href="#"><i class="fas fa-laptop"></i> Computer Repair</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-mobile-alt"></i> Cellphone Repair</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-code"></i> Web Development</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-chalkboard-teacher"></i> Computer Science Tutoring</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-concierge-bell"></i> Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <a class="dropdown-item" href="#"><i class="fas fa-laptop"></i> Computer Repair</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-mobile-alt"></i> Cellphone Repair</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-code"></i> Web Development</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-chalkboard-teacher"></i> Computer Science Tutoring</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html"><i class="fas fa-info-circle"></i> About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><i class="fa fa-envelope"></i> Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br><br>
+    <!-- Branding Images Section -->
+    <div class="container text-center my-5">
+        <div class="row">
+            <div class="col-6 col-md-3 mb-4">
+                <img src="WhatsApp Image 2024-06-27 at 11.19.17.jpeg" alt="Brand Image 1" class="circle-img large">
+            </div>
+            <div class="col-6 col-md-3 mb-4">
+                <img src="TECHNICIAN.webp" alt="Brand Image 2" class="circle-img medium">
+            </div>
+            <div class="col-6 col-md-3 mb-4">
+                <img src="image.avif" alt="Brand Image 3" class="circle-img small">
+            </div>
+            <div class="col-6 col-md-3 mb-4">
+                <video class="circle-img small" controls autoplay loop>
+                    <source src="video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+    <!-- Social Media Icons Section -->
+    <div class="container text-center my-5">
+        <div class="social-icons">
+            <a href="https://wa.me/0794851707" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61561195355299" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/your_twitter_profile" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/magantsa_itechdigital/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCU6A3E8NYqPb3x6gV-PbsOg" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
